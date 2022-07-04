@@ -1,9 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding:0;
 }
 .nameorange{
-    color: orange;
+    color: rgb(188, 236, 56);
+}
+
+p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
 }
 .upper{
     width: 50%;
@@ -22,7 +29,7 @@ section{
  }
 
  .linkbutton{
-    background-image: linear-gradient(rgb(221, 62, 62),rgb(223, 138, 12));
+    background-image: linear-gradient(rgb(158, 149, 149),rgb(36, 35, 34));
     text-decoration: none;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -32,8 +39,61 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    
  }
 #topbanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+  
+  margin-bottom: 200px;
 }
+#bottombanner{
+    
+background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  
+  margin-bottom: 200px;
+}
+h1{
+    font-size: 45px;
+}
+
+.Lower{
+    width: 50%;
+    padding-left: 2%;
+    margin:20px;
+    margin-right: 200px;
+    
+}
+.Lower img{
+    width: 80%;
+ }
+
+ #fullstack{
+    
+   border-left: 10px solid yellowgreen;
+   box-shadow: 10px 10px 40px grey;
+ 
+    
+ }
+ #babydeveloper{
+    box-shadow: 10px 10px 40px grey;
+    border-left: 10px solid yellowgreen ;
+ }
+
+ h2{
+    font-size: 40px;
+ }
+
+ footer{
+    text-align: center;
+    color: rgb(87, 86, 86);
+    font-size: 2px;
+ }
+
+ #experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px 110px;
+ }
